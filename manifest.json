@@ -1,0 +1,32 @@
+{
+  "azphalt": "0.1",
+  "id": "com.hereliesaz.azphalt.anamorphic-flare",
+  "name": "Anamorphic Flare",
+  "version": "1.0.0",
+  "kind": "asset",
+  "license": "LicenseRef-Proprietary",
+  "compat": ">=0.1",
+  "description": "Horizontal blue streaks blooming off bright highlights \u2014 the widescreen lens flare that makes phone footage read as cinema.",
+  "author": "HereLiesAz",
+  "targetApps": [
+    "com.hereliesaz.guillotine"
+  ],
+  "assets": [
+    {
+      "type": "shader",
+      "path": "assets/anamorphic-flare.fs",
+      "ui": "ui/panel.json",
+      "params": {
+        "format": "isf"
+      },
+      "tags": [
+        "shader",
+        "stylize",
+        "anamorphic",
+        "lens-flare",
+        "cinematic",
+        "one-click"
+      ]
+    }
+  ]
+}
